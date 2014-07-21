@@ -1,0 +1,147 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADMINFILE	config.h	7;"	d
+ALEN	config.h	4;"	d
+AS	Makefile	/^AS	=gas$/;"	m
+BUFLEN	cmd_pro.c	3;"	d	file:
+BUFLEN	config.h	15;"	d
+BUFLEN	package.h	4;"	d
+CC	Makefile	/^CC	=gcc$/;"	m
+CFG_FILE	config.h	9;"	d
+CFLAGS	Makefile	/^CFLAGS	=$/;"	m
+CMD_CMD	sys_param.h	9;"	d
+CMD_DOWN	sys_param.h	5;"	d
+CMD_LIST	sys_param.h	7;"	d
+CMD_LOGIN	sys_param.h	4;"	d
+CMD_QUIT	sys_param.h	8;"	d
+CMD_UP	sys_param.h	6;"	d
+DEBUG_ENABLE	util.h	14;"	d
+DPRINT	util.h	16;"	d
+DPRINT	util.h	28;"	d
+DPRINTD	util.h	21;"	d
+DPRINTS	util.h	24;"	d
+LD	Makefile	/^LD	=gld$/;"	m
+LOGFILENAME	log.h	5;"	d
+MAXBUF	config.h	6;"	d
+MAXBUF	package.h	5;"	d
+MAX_CLIENT_NUM	config.h	13;"	d
+PORT_NUM	config.h	11;"	d
+STATE_DOWNFILE_CFM	sys_param.h	23;"	d
+STATE_DOWNFILE_CRTFILE_ERR	sys_param.h	28;"	d
+STATE_DOWNFILE_END	sys_param.h	25;"	d
+STATE_DOWNFILE_NOEXIST	sys_param.h	26;"	d
+STATE_DOWNFILE_PRO	sys_param.h	24;"	d
+STATE_DOWNFILE_REQ	sys_param.h	22;"	d
+STATE_DOWNFILE_SPACE_FULL	sys_param.h	27;"	d
+STATE_EXIT	util.h	33;"	d
+STATE_FILELIST_END	sys_param.h	32;"	d
+STATE_FILELIST_ERR	sys_param.h	30;"	d
+STATE_FILELIST_PRO	sys_param.h	31;"	d
+STATE_LOGIN_CFM	sys_param.h	11;"	d
+STATE_LOGIN_ERR	sys_param.h	12;"	d
+STATE_RUN	util.h	31;"	d
+STATE_STOP	util.h	32;"	d
+STATE_UPFILE_CFM	sys_param.h	15;"	d
+STATE_UPFILE_CRTFILE_ERR	sys_param.h	20;"	d
+STATE_UPFILE_END	sys_param.h	16;"	d
+STATE_UPFILE_EXT	sys_param.h	18;"	d
+STATE_UPFILE_PRO	sys_param.h	17;"	d
+STATE_UPFILE_REQ	sys_param.h	14;"	d
+STATE_UPFILE_SPACE_FULL	sys_param.h	19;"	d
+THREADNUM	config.h	12;"	d
+THREAD_POOL_H_	thread_pool.h	2;"	d
+UFC	package.h	/^}UFC;$/;"	t	typeref:union:__anon1
+ULEN	config.h	5;"	d
+USER_FILE	config.h	8;"	d
+__CMD_PRO_H__	cmd_pro.h	2;"	d
+__COMMU_H__	comm.h	2;"	d
+__CONFIG_H__	config.h	2;"	d
+__LOG_H__	log.h	2;"	d
+__MENU_H__	menu.h	2;"	d
+__OPENSSL_H__	openssl.h	2;"	d
+__PACKAGE_H__	package.h	2;"	d
+__PRINT_H__	print.h	2;"	d
+__SERVER_H__	server.h	2;"	d
+__SYS_PARAM_H__	sys_param.h	2;"	d
+__UTIL_H__	util.h	2;"	d
+add_admin_account	menu.c	/^void add_admin_account()$/;"	f
+add_client_account	menu.c	/^void add_client_account()$/;"	f
+arg	thread_pool.c	/^	void	**arg;$/;"	m	struct:taskqueue	file:
+buf	package.h	/^	char buf[MAXBUF];  $/;"	m	struct:package
+cd_file	cmd_pro.c	/^static int cd_file(char *cmds, char *pwd)$/;"	f	file:
+cfg_process	menu.c	/^void cfg_process()$/;"	f
+check_user	comm.c	/^int check_user(char *user)$/;"	f
+close_ssl_fd	openssl.c	/^void close_ssl_fd(void *fd)$/;"	f
+cmd	package.h	/^	unsigned char cmd;$/;"	m	struct:package
+cmds	package.h	/^	char cmds[BUFLEN];$/;"	m	union:__anon1
+cond	thread_pool.c	/^	pthread_cond_t		cond;$/;"	m	struct:threadpool	file:
+count	package.h	/^	int count;$/;"	m	struct:package
+ctx	openssl.c	/^SSL_CTX *ctx;$/;"	v
+current_client_num	server.c	/^static current_client_num = 0;$/;"	v	file:
+err_msg	util.h	8;"	d
+filename	package.h	/^	char filename[BUFLEN];$/;"	m	union:__anon1
+get_ssl_fd	openssl.c	/^void* get_ssl_fd(void *fd)$/;"	f
+getpwd	comm.c	/^void getpwd(char *user, char *pwd)$/;"	f
+head	thread_pool.c	/^	int	head;$/;"	m	struct:taskqueue	file:
+logV	log.c	/^void logV(const char *msg, ...)$/;"	f
+main	main.c	/^int main()$/;"	f
+max_client_num	server.c	/^static max_client_num = MAX_CLIENT_NUM;$/;"	v	file:
+max_thr_num	thread_pool.c	/^	int			max_thr_num;$/;"	m	struct:threadpool	file:
+menu_thread	menu.c	/^void* menu_thread(void *arg)$/;"	f
+mutex_cond	thread_pool.c	/^	pthread_mutex_t		mutex_cond;$/;"	m	struct:threadpool	file:
+mutex_queue	thread_pool.c	/^	pthread_mutex_t		mutex_queue;$/;"	m	struct:threadpool	file:
+mv_file	cmd_pro.c	/^static int mv_file(char *cmds, char *pwd)$/;"	f	file:
+objects	Makefile	/^objects = menu.o log.o comm.o server.o thread_pool.o print.o cmd_pro.o openssl.o package.o main.o$/;"	m
+pack	package.c	/^struct package pack(unsigned char cmd, unsigned char state, UFC *pufc,  int count, char *buf)$/;"	f
+package	package.h	/^struct package$/;"	s
+print_cfg_menu	print.c	/^void print_cfg_menu()$/;"	f
+print_login_menu	print.c	/^void print_login_menu()$/;"	f
+print_main_menu	print.c	/^void print_main_menu()$/;"	f
+process	server.c	/^void process(void *arg)$/;"	f
+process_cmd	cmd_pro.c	/^int process_cmd(char *cmds, char *pwd)$/;"	f
+process_cmd	comm.c	/^void process_cmd(void *ssl, struct package tpack, char *pwd)$/;"	f
+process_downfile	comm.c	/^void process_downfile(void *ssl, struct package tpack, char *pwd)$/;"	f
+process_filelist	comm.c	/^void process_filelist(void *ssl, struct package tpack, char *pwd)$/;"	f
+process_lgoin	comm.c	/^static void process_lgoin(void *fd, struct package tpack, char *pwd)$/;"	f	file:
+process_upfile	comm.c	/^void process_upfile(void *ssl, struct package tpack, char *pwd)$/;"	f
+recv_data	comm.c	/^static inline int recv_data(void *ssl, struct package *buf, int len)$/;"	f	file:
+return_if_null	thread_pool.h	4;"	d
+return_null_if_fail	thread_pool.h	7;"	d
+return_val_if_fail	thread_pool.h	10;"	d
+rm_file	cmd_pro.c	/^static int rm_file(char *cmds, char *pwd)$/;"	f	file:
+send_data	comm.c	/^static inline int send_data(void *ssl, struct package *buf, int len)$/;"	f	file:
+send_no_free_connect	comm.c	/^void send_no_free_connect(void *fd)$/;"	f
+server_control	server.c	/^void server_control(int sockfd, void *arg)$/;"	f
+server_init	server.c	/^int server_init()$/;"	f
+server_thread	server.c	/^void * server_thread(void *arg)$/;"	f
+set_max_client	menu.c	/^void set_max_client()$/;"	f
+shared_info	util.h	/^struct	shared_info{$/;"	s
+ssl_err_print	openssl.c	/^void ssl_err_print(void *ssl, int ret)$/;"	f
+ssl_free	openssl.c	/^void ssl_free()$/;"	f
+ssl_init	openssl.c	/^void ssl_init()$/;"	f
+start_commu	comm.c	/^void start_commu(void *fd)$/;"	f
+state	package.h	/^    unsigned char state;$/;"	m	struct:package
+state	util.h	/^	int	state;$/;"	m	struct:shared_info
+tail	thread_pool.c	/^	int	tail;$/;"	m	struct:taskqueue	file:
+task_func	thread_pool.c	/^	threadpool_task_func_t	*task_func;	\/* work func *\/$/;"	m	struct:taskqueue	file:
+task_queue	thread_pool.c	/^	taskqueue_t		*task_queue;$/;"	m	struct:threadpool	file:
+taskqueue	thread_pool.c	/^typedef	struct	taskqueue{$/;"	s	file:
+taskqueue_t	thread_pool.c	/^}taskqueue_t;$/;"	t	typeref:struct:taskqueue	file:
+thiz	server.c	/^threadpool_t*	thiz = NULL;$/;"	v
+thread_id	thread_pool.c	/^	pthread_t		*thread_id; 	\/*如果不需要destroy线程，也可以取消*\/$/;"	m	struct:threadpool	file:
+threadpool	thread_pool.c	/^struct	threadpool{$/;"	s	file:
+threadpool_add_task	thread_pool.c	/^int	threadpool_add_task(threadpool_t *thiz, threadpool_task_func_t task_func, void *arg)$/;"	f
+threadpool_create	thread_pool.c	/^threadpool_t*	threadpool_create(int max_thr_num)$/;"	f
+threadpool_destroy	thread_pool.c	/^int	threadpool_destroy(threadpool_t *thiz)$/;"	f
+threadpool_excute_task	thread_pool.c	/^void* threadpool_excute_task(void *arg)$/;"	f
+threadpool_stop_all_task	thread_pool.c	/^int threadpool_stop_all_task(threadpool_t *thiz)$/;"	f
+threadpool_t	thread_pool.h	/^typedef	struct threadpool	threadpool_t;$/;"	t	typeref:struct:threadpool
+threadpool_task_func_t	thread_pool.h	/^typedef void (*threadpool_task_func_t)(void *);$/;"	t
+ufc	package.h	/^  	UFC	ufc;$/;"	m	struct:package
+unpack	comm.c	/^void unpack(void *fd, struct package tpack, char *pwd)$/;"	f
+user	package.h	/^	char user[BUFLEN];$/;"	m	union:__anon1
+user_login	menu.c	/^void user_login()$/;"	f
